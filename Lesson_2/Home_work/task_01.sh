@@ -4,3 +4,4 @@
 echo '[mysql]' > ~/.my.cnf
 echo 'user=root' >> ~/.my.cnf
 echo 'password=master' >> ~/.my.cnf
+
