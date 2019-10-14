@@ -81,4 +81,3 @@ delete from students
 where couse_id = 1;
 
 delete from students;
-
