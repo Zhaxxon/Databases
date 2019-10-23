@@ -7,6 +7,7 @@ CREATE DATABASE IF NOT EXISTS shop;
 USE shop;
 
 DROP TABLE IF EXISTS storehouses_products;
+
 CREATE TABLE IF NOT EXISTS storehouses_products (
   id SERIAL PRIMARY KEY,
   storehouse_id INT UNSIGNED DEFAULT NULL,
