@@ -25,7 +25,6 @@ INSERT INTO users (name, birthday_at) VALUES
 
 SELECT * FROM users;
 
--- заполняем created_at и updated_at текущими датой и временем
 UPDATE users SET created_at = NOW(), updated_at = NOW() ;
 
 SELECT * FROM users;
