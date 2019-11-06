@@ -3,6 +3,7 @@
 
 CREATE DATABASE IF NOT EXISTS shop;
 USE shop;
+
 DROP TABLE IF EXISTS users;
 CREATE TABLE IF NOT EXISTS users(
 	id SERIAL PRIMARY KEY,
@@ -25,6 +26,7 @@ INSERT INTO users (name, age) VALUES ('Obama', 33), ('Deniska', 11);
 
 USE sample;
 SELECT * FROM users;
+
 USE shop;
 SELECT * FROM users;
 
